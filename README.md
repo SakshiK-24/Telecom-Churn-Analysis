@@ -24,7 +24,7 @@ This analysis project explores customer churn behavior, telecom partner influenc
 > 🧩 **Note:** Individual Tableau sheets have white-colored axes and titles intentionally. 
 This is to blend well with the **custom dashboard background**, creating a cleaner visual appearance. You may see text only when hovering the charts.
 
-📁 **Dataset Information:** 
+## 📁 **Dataset Information:** 
 The original dataset was downloaded from Kaggle.  
 Only the **cleaned and feature-engineered** dataset is included in this repository for analysis. The raw dataset is not shared.
 
