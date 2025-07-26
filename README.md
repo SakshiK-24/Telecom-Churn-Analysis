@@ -9,7 +9,7 @@ This analysis project explores customer churn behavior, telecom partner influenc
 
 ## 📂 Project Structure:
 - data/ - Zipped dataset file (.zip) containing the cleaned dataset file (.csv format)
-- sql/ - SQL queries for customer behaviour,revenue and sales trends (.sql)
+- sql/ - SQL queries for data exploration, churn insights (.sql)
 - dashboard/ - Tableau dashboard file (.twbx)
 
 ## 📊 Insights Uncovered:
