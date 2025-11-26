@@ -1,5 +1,29 @@
 create database telecom;
 use telecom;
+CREATE TABLE cleaned_telecom_churn(
+    customer_id INT,
+    telecom_partner VARCHAR(50),
+    gender VARCHAR(10),
+    age INT,
+    age_group VARCHAR(20),
+    state VARCHAR(100),
+    city VARCHAR(100),
+    pincode INT,
+    date_of_registration DATE,
+    month VARCHAR(10),
+    num_dependents INT,
+    estimated_salary INT,
+    salary_group VARCHAR(30),
+    calls_made INT,
+    calls_made_group VARCHAR(50),
+    sms_sent INT,
+    sms_sent_group VARCHAR(50),
+    data_used INT,
+    data_usage_GB FLOAT,
+    data_usage_GB_group VARCHAR(50),
+    churn INT,
+    churned VARCHAR(10)
+);
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/cleaned_telecom_churn.csv'
 INTO TABLE cleaned_telecom_churn
 FIELDS TERMINATED BY ',' 
