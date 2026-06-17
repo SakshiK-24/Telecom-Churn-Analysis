@@ -14,6 +14,8 @@ This analysis project explores customer churn behavior, telecom partner influenc
 
 ## 📊 Insights Uncovered:
 ![Telecom Churn Dashboard](images/Dashboard2.png)
+🔗 Interactive Tableau Dashboard:
+https://public.tableau.com/app/profile/sakshi.kamble6871/viz/Telecom_Churn_Analysis_17816855352100/TelecomChurnDashboard
 - Key KPIs such as Total Customers, Churn Rate, Refunded Data, etc
 - Churned vs Non-Churned Customer Distribution
 - Number of Customers by State
